@@ -11,15 +11,14 @@ function next() {
         return;
     }
 
+    
+
     createMatrixInput('matrixA', rowsA, columnsA, 'A');
     createMatrixInput('matrixB', rowsB, columnsB, 'B');
 
     document.getElementById('matrixInput').style.display = 'block';
 }
-//  Next Button Function end
 
-//Now After Clicking Next Button input box 
-// taking matrix value by the user
 
 function createMatrixInput(containerId, rows, columns, matrixName) {
     var container = document.getElementById(containerId);
